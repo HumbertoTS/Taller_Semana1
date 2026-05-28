@@ -15,7 +15,7 @@ public class Operacion {
         return a + b + c;
     }
 
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
 
         //Creación de Objeto
         Operacion ope = new Operacion();
