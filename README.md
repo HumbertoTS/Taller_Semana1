@@ -22,6 +22,10 @@
 
 ### Crear Repositorio GitHub
 
+En la imagen se visualiza la creación del repositorio "Taller_Semana1" en GitHub, 
+configurado con visibilidad pública para permitir el acceso y la colaboración en el 
+proyecto.
+
 ![Crear repositorio](./media/image1.png)
 
 ### Clonar un repositorio de GitHub
