@@ -37,9 +37,17 @@ En la siguiente imagen primero se hace un `git pull` para descargar todos los ca
 
 ### Primer commit
 
+En este paso, cuando queremos subir los cambios realizado en el proyecto, tenemos que escribir y ejecutar el comando `git commit` –m “Comentario sobre el cambio” en nuestra ventana git bash o CMD. Este comando realiza un guardado de versión en Git.  
+
+Luego, para que se suban los cambios al repositorio, tenemos que escribir y ejecutar el comando `git push` origin main, al final del comando se coloca el nombre de la rama a donde se subirán los cambios, en este caso es main.
+
 ![Primer commit](./media/image4.png)
 
 ### Realizar cambios en el código: usar `git add` y `git commit`
+
+Para este punto, en el código se agregó una persona más y para subir los cambios realizados al repositorio debemos usar el comando `git add` ., se usa el punto “.” al final como indicador que se agreguen todos los cambios. 
+
+Luego, se realiza el comando `git commit` –m para poder guardar una versión del trabajo en Git y después poder subirlo al repositorio. 
 
 ![git add y commit](./media/image5.png)
 
