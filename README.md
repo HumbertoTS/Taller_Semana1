@@ -68,3 +68,11 @@ En esta sección se evidencia el uso de ramas (branches) para trabajar de manera
 En la siguiente imagen se observa el merge y la resolución de un pull request.
 
 ![Pull request](./media/image8.png)
+
+### ¿Cuál es la diferencia entre un método normal y uno static? 
+
+La principal diferencia es que un método normal necesita que se cree un objeto para poder utilizarse, mientras que un método static pertenece directamente a la clase y puede ser utilizado sin necesidad de crear un objeto. Los métodos static son útiles cuando se desea compartir información o realizar operaciones generales dentro de la clase, como en el caso del contador de objetos desarrollado en la práctica. 
+
+### ¿En qué casos usarías sobrecarga de métodos?
+
+La sobrecarga de métodos se utiliza cuando se necesita realizar una misma operación, pero con diferentes tipos o cantidades de parámetros. Esto permite reutilizar el mismo nombre del método y hacer el código más ordenado y fácil de entender. Por ejemplo, en la práctica se utilizó un método sumar que podía trabajar con diferentes tipos de datos y distintas cantidades de números.
